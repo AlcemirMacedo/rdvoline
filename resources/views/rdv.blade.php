@@ -1,9 +1,10 @@
 @extends('layouts.main')
 
 @section('content')
-<h1>RDV's</h1>
 
-    <div class="content">
+
+    <div class="container">
+        <h1>RDV's</h1>
         <table class="table table-dark">
             <thead>
               <tr>
@@ -24,9 +25,10 @@
             @endforeach
             </tbody>
           </table>
+          <a href="/formRdv">Novo Rdv</a>
     </div>
 
-<a href="/formRdv">Novo Rdv</a>
+
 
 </body>
 </html>
